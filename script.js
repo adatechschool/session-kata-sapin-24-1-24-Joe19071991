@@ -7,3 +7,11 @@ const afficherEtoiles = (n) => {
 };
 afficherEtoiles(3);
 afficherEtoiles(6);
+
+// //étape 1.2 hauteur, largeur, carré d'étoiles
+const afficherRectangle = (hauteur, largeur) => {
+  for (let i = 0; i < hauteur; i++) {
+    afficherEtoiles(largeur);
+  }
+};
+afficherRectangle(5, 5);
