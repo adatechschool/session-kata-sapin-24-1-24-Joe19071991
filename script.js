@@ -15,3 +15,13 @@ const afficherRectangle = (hauteur, largeur) => {
   }
 };
 afficherRectangle(5, 5);
+
+// étape 1.3 triangle d'étoile
+const afficherTriangleDroit = (n) => {
+  let triangle = "*";
+  for (let i = 0; i <= n; i++) {
+    let result = triangle.repeat(i) + "\\";
+    console.log(result);
+  }
+};
+afficherTriangleDroit(5);
